@@ -14,9 +14,10 @@ export default function Home() {
       >
         {count}
       </motion.h1>
+
       <div className="flex gap-2">
-        <button className="btn btn-primary" onClick={increase}>+</button>
-        <button className="btn btn-secondary" onClick={decrease}>-</button>
+        <button className="btn btn-primary rounded" onClick={increase}>+</button>
+        <button className="btn btn-secondary rounded" onClick={decrease}>-</button>
       </div>
     </div>
   );
